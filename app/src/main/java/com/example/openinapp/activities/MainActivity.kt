@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         window?.statusBarColor = resources.getColor(R.color.blue)
         window?.navigationBarColor = resources.getColor(R.color.white)
         val windowInsetsController = ViewCompat.getWindowInsetsController(window?.decorView!!)
-        windowInsetsController?.isAppearanceLightStatusBars = true
+        windowInsetsController?.isAppearanceLightStatusBars = false
         windowInsetsController?.isAppearanceLightNavigationBars = true
     }
 }
